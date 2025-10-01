@@ -24,7 +24,6 @@ class ProductEvent:
     data: Dict[str, Any] = None
 
 class EventQueueProcessor:
-    #def __init__(self, updater_service_url: str = "http://updater:8001"):
     def __init__(self, updater_service_url: str = "http://localhost:8001"):    
         self.updater_url = updater_service_url
         self.is_running = False
