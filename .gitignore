@@ -1,0 +1,5 @@
+pat/pat.txt
+Dockerfile.faas
+Dockerfile.search
+Dockerfile.updater
+docker-compose.yml
